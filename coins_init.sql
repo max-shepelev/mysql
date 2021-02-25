@@ -54,10 +54,10 @@ INSERT INTO VendingMachine(
     coin_quantity
 )
 VALUES 
-(1, 2000),
-(2, 2000),
-(3, 0),
-(4, 0);
+(1, 10),
+(2, 10),
+(3, 10),
+(4, 10);
 
 INSERT INTO Products(
     product_name,
