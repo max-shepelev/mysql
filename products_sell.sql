@@ -24,7 +24,7 @@ BEGIN
         ROLLBACK;
     END;
     
-    
+    /* Having serializable level is debatable. Read commited should suffice*/
     SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
     START TRANSACTION;
             

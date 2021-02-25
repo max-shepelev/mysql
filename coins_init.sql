@@ -39,7 +39,6 @@ CREATE TABLE Products(
     CONSTRAINT PK_Products_productId PRIMARY KEY(product_id DESC)
 );
 
-
 INSERT INTO Coins(
     coin_value, 
     coin_name
@@ -57,8 +56,8 @@ INSERT INTO VendingMachine(
 VALUES 
 (1, 2000),
 (2, 2000),
-(3, 2000),
-(4, 2000);
+(3, 0),
+(4, 0);
 
 INSERT INTO Products(
     product_name,
