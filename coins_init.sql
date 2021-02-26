@@ -54,8 +54,8 @@ INSERT INTO VendingMachine(
     coin_quantity
 )
 VALUES 
-(1, 10),
-(2, 10),
+(1, 5000),
+(2, 5000),
 (3, 10),
 (4, 10);
 
